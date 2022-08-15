@@ -1,0 +1,120 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1F2023;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quiz {
+  background: #27282D;
+  width: 40rem;
+  padding: 4rem;
+  text-align: center;
+  box-shadow: 5px 5px 10px 5px #27282D;
+  max-height: 35rem;
+  overflow-y: scroll;
+}
+
+hr {
+  border-top: 1px solid #E5F776;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2px 0px;
+  border-radius: 50px;
+}
+
+h2 {
+  color: #FFF;
+}
+
+.text-white{
+  color: #FFF;
+}
+
+.text-primary {
+  color: #E5F776;
+}
+
+.border {
+  border: 1px solid #383B42;
+  border-radius: 5px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+#question {
+  font-family: sans-serif;
+  font-size: 1.7rem;
+  color: #FFF;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.button {
+  border: 1px solid #383B42;
+  background-color: transparent;
+  width: 250px;
+  font-size: 20px;
+  color: #E5F776;
+  border-radius: .3rem;
+  padding: 10px 20px;
+  margin: 10px 40px 10px 0px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #E5F776;
+  color: #383B42;
+  transition: all 0.3s ease-in;
+}
+
+#progress {
+  color: #2b2b2b;
+  font-size: 18px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  cursor: pointer;
+  background-color: #57636e;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  outline: 0;
+}
+
+.ui-button {
+  width: 50%;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #383B42;
+  color: #E5F776;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ui-h4 {
+  color: #E5F776;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+}
