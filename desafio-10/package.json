@@ -1,0 +1,28 @@
+{
+  "name": "desafio-10-coderhouse",
+  "version": "1.0.0",
+  "description": "Desafio 10 Autenticacion",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Jose Candia",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0",
+    "pug": "^3.0.2",
+    "session-file-store": "^1.5.0",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

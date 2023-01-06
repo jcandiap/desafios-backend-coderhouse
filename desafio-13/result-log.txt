@@ -1,0 +1,415 @@
+Statistical profiling result from isolate-000001ADD98FF370-18092-v8.log, (67794 ticks, 8 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  65963   97.3%          C:\WINDOWS\SYSTEM32\ntdll.dll
+   1550    2.3%          C:\Program Files\nodejs\node.exe
+      4    0.0%          C:\WINDOWS\System32\KERNELBASE.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     15    0.0%    5.4%  LazyCompile: *parseChar C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:76:19
+     13    0.0%    4.7%  LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:73:26
+     12    0.0%    4.3%  LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+     11    0.0%    4.0%  LazyCompile: *readStringContents C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2150:28
+      8    0.0%    2.9%  LazyCompile: *readEscapedChar C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2236:25
+      8    0.0%    2.9%  LazyCompile: *parseMaybeUnary C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:12765:18
+      6    0.0%    2.2%  LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:110:26
+      5    0.0%    1.8%  LazyCompile: *visitBlock C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:420:23
+      5    0.0%    1.8%  LazyCompile: *resolve node:path:158:10
+      5    0.0%    1.8%  LazyCompile: *pp$9.getTokenFromCode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\acorn\dist\acorn.js:4635:35
+      5    0.0%    1.8%  LazyCompile: *parseMaybeAssign C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:12507:19
+      5    0.0%    1.8%  LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      5    0.0%    1.8%  LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      4    0.0%    1.4%  LazyCompile: *get C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\types\lib\index.js:623:19
+      4    0.0%    1.4%  LazyCompile: *buffer C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:203:19
+      4    0.0%    1.4%  LazyCompile: *attribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1216:22
+      4    0.0%    1.4%  LazyCompile: *Tokenizer C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2490:14
+      3    0.0%    1.1%  LazyCompile: *walk.includeDependencies C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-filters\lib\handle-filters.js:14:13
+      3    0.0%    1.1%  LazyCompile: *visitTag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:613:21
+      3    0.0%    1.1%  LazyCompile: *skipSpace C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2710:12
+      3    0.0%    1.1%  LazyCompile: *readWord1 C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:3638:12
+      3    0.0%    1.1%  LazyCompile: *parse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:28:15
+      3    0.0%    1.1%  LazyCompile: *isConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\constantinople\lib\index.js:332:20
+      3    0.0%    1.1%  LazyCompile: *finishNode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:4459:13
+      3    0.0%    1.1%  LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+      3    0.0%    1.1%  LazyCompile: *addExtra C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:4091:11
+      3    0.0%    1.1%  LazyCompile: *Parser C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\acorn\dist\acorn.js:470:31
+      2    0.0%    0.7%  RegExp: ^\n[ \t]*\n
+      2    0.0%    0.7%  RegExp: ^(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? * in *([^\n]+)
+      2    0.0%    0.7%  RegExp: ^(?:block +)?prepend +([^\n]+)
+      2    0.0%    0.7%  RegExp: [ \n\t]
+      2    0.0%    0.7%  RegExp: (\\)?([#!]){((?:.|\n)*)$
+      2    0.0%    0.7%  LazyCompile: *toNamespacedPath node:path:618:19
+      2    0.0%    0.7%  LazyCompile: *toConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\constantinople\lib\index.js:9:24
+      2    0.0%    0.7%  LazyCompile: *tag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-parser\index.js:1133:16
+      2    0.0%    0.7%  LazyCompile: *pp$3.parseMaybeUnary C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\acorn\dist\acorn.js:2087:34
+      2    0.0%    0.7%  LazyCompile: *pluginsMap C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:16922:20
+      2    0.0%    0.7%  LazyCompile: *parseLiteralAtNode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:13529:21
+      2    0.0%    0.7%  LazyCompile: *parseExprAtom C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:13124:16
+      2    0.0%    0.7%  LazyCompile: *getParser C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:16992:19
+      2    0.0%    0.7%  LazyCompile: *getOptions C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:11911:20
+      2    0.0%    0.7%  LazyCompile: *finishToken C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2819:14
+      2    0.0%    0.7%  LazyCompile: *findGlobals C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:166:21
+      2    0.0%    0.7%  LazyCompile: *extends C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:683:20
+      2    0.0%    0.7%  LazyCompile: *each C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1042:17
+      2    0.0%    0.7%  LazyCompile: *className C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:465:22
+      2    0.0%    0.7%  LazyCompile: *checkReservedWord C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:14307:20
+      2    0.0%    0.7%  LazyCompile: *Identifier C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:137:15
+      1    0.0%    0.4%  RegExp: ^while\b
+      1    0.0%    0.4%  RegExp: ^mixin +([-\w]+)(?: *\((.*)\))? *
+      1    0.0%    0.4%  RegExp: ^doctype *([^\n]*)
+      1    0.0%    0.4%  RegExp: ^\/assets\/?(?=\/|$)
+      1    0.0%    0.4%  RegExp: ^\+(\s*)(([-\w]+)|(#\{))
+      1    0.0%    0.4%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.4%  RegExp: ^- *(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? +of +([^\n]+)
+      1    0.0%    0.4%  RegExp: ^-
+      1    0.0%    0.4%  RegExp: ^(Named)?Block$
+      1    0.0%    0.4%  RegExp: ^(?:each|for)\b
+      1    0.0%    0.4%  RegExp: ^(?:each|for) (.*?) of *([^\n]+)
+      1    0.0%    0.4%  RegExp: ^(?:\| ?| )([^\n]+)
+      1    0.0%    0.4%  RegExp: SSS
+      1    0.0%    0.4%  RegExp: (?:\s|\/\/.*|\/\*[^]*?\*\/)*
+      1    0.0%    0.4%  LazyCompile: *while C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1023:18
+      1    0.0%    0.4%  LazyCompile: *when C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:873:17
+      1    0.0%    0.4%  LazyCompile: *visit C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:292:18
+      1    0.0%    0.4%  LazyCompile: *toConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\constantinople\lib\index.js:354:20
+      1    0.0%    0.4%  LazyCompile: *readSync node:fs:699:18
+      1    0.0%    0.4%  LazyCompile: *pp$3.parseMaybeAssign C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\acorn\dist\acorn.js:1976:35
+      1    0.0%    0.4%  LazyCompile: *parseUntil C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:47:20
+      1    0.0%    0.4%  LazyCompile: *parseTag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-parser\index.js:1111:21
+      1    0.0%    0.4%  LazyCompile: *parseParenAndDistinguishExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:13578:37
+      1    0.0%    0.4%  LazyCompile: *parseNumericLiteral C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:13546:22
+      1    0.0%    0.4%  LazyCompile: *parseIdentifierName C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:14280:22
+      1    0.0%    0.4%  LazyCompile: *parseExpressionBase C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:12474:22
+      1    0.0%    0.4%  LazyCompile: *parseExprOp C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:12625:14
+      1    0.0%    0.4%  LazyCompile: *parseCoverCallAndAsyncArrowHead C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:12963:34
+      1    0.0%    0.4%  LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      1    0.0%    0.4%  LazyCompile: *next C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\router\index.js:177:16
+      1    0.0%    0.4%  LazyCompile: *next C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2543:7
+      1    0.0%    0.4%  LazyCompile: *mixin C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:968:18
+      1    0.0%    0.4%  LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      1    0.0%    0.4%  LazyCompile: *isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\is-expression\index.js:14:22
+      1    0.0%    0.4%  LazyCompile: *isConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-attrs\index.js:8:20
+      1    0.0%    0.4%  LazyCompile: *isCallExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\types\lib\validators\generated\index.js:431:26
+      1    0.0%    0.4%  LazyCompile: *interpolation C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:369:26
+      1    0.0%    0.4%  LazyCompile: *incrementColumn C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:173:28
+      1    0.0%    0.4%  LazyCompile: *include C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:818:20
+      1    0.0%    0.4%  LazyCompile: *getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1    0.0%    0.4%  LazyCompile: *getTokenFromCode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:3125:19
+      1    0.0%    0.4%  LazyCompile: *formatRaw node:internal/util/inspect:828:19
+      1    0.0%    0.4%  LazyCompile: *filter C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:411:19
+      1    0.0%    0.4%  LazyCompile: *eachOf C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1088:19
+      1    0.0%    0.4%  LazyCompile: *doctype C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:431:20
+      1    0.0%    0.4%  LazyCompile: *dirname node:path:653:10
+      1    0.0%    0.4%  LazyCompile: *currentFlags C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:4065:15
+      1    0.0%    0.4%  LazyCompile: *curPosition C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:2112:14
+      1    0.0%    0.4%  LazyCompile: *compileAttrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-attrs\index.js:22:22
+      1    0.0%    0.4%  LazyCompile: *checkLVal C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:12269:12
+      1    0.0%    0.4%  LazyCompile: *case C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:855:17
+      1    0.0%    0.4%  LazyCompile: *blockCode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1203:22
+      1    0.0%    0.4%  LazyCompile: *blank C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:337:18
+      1    0.0%    0.4%  LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-parser\index.js:1270:18
+      1    0.0%    0.4%  LazyCompile: *attributesBlock C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1467:28
+      1    0.0%    0.4%  LazyCompile: *asString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\date-format\lib\index.js:29:18
+      1    0.0%    0.4%  LazyCompile: *applyPlugins C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:43:22
+      1    0.0%    0.4%  LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:594:37
+      1    0.0%    0.4%  LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-strip-comments\index.js:28:31
+      1    0.0%    0.4%  LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-linker\index.js:193:21
+      1    0.0%    0.4%  Function: ^walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1    0.0%    0.4%  Function: ^validateString node:internal/validators:119:24
+      1    0.0%    0.4%  Function: ^toConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\constantinople\lib\index.js:9:24
+      1    0.0%    0.4%  Function: ^stripComments C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-strip-comments\index.js:12:23
+      1    0.0%    0.4%  Function: ^stringToFlags node:internal/fs/utils:558:23
+      1    0.0%    0.4%  Function: ^resetQueue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\graceful-fs\graceful-fs.js:383:21
+      1    0.0%    0.4%  Function: ^resOnFinish node:_http_server:816:21
+      1    0.0%    0.4%  Function: ^prepend C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:701:20
+      1    0.0%    0.4%  Function: ^interpolation C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:369:26
+      1    0.0%    0.4%  Function: ^get node:_http_incoming:112:16
+      1    0.0%    0.4%  Function: ^expressInit C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\middleware\init.js:29:30
+      1    0.0%    0.4%  Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+      1    0.0%    0.4%  Function: ^emit node:events:460:44
+      1    0.0%    0.4%  Function: ^addAttribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-attrs\index.js:54:24
+      1    0.0%    0.4%  Function: ^StatementParser C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:14754:1
+      1    0.0%    0.4%  Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      1    0.0%    0.4%  Function: ^<anonymous> file:///C:/personal/coder/backend/desafios/desafio-13-coderhouse/src/app.js:219:18
+      1    0.0%    0.4%  Function: ^<anonymous> :6:15
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+    269    0.4%   97.1%  JavaScript
+      0    0.0%    0.0%  C++
+     43    0.1%   15.5%  GC
+  67517   99.6%          Shared libraries
+      8    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  65963   97.3%  C:\WINDOWS\SYSTEM32\ntdll.dll
+
+   1550    2.3%  C:\Program Files\nodejs\node.exe
+   1022   65.9%    C:\Program Files\nodejs\node.exe
+    225   22.0%      Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+    195   86.7%        Function: ^writeGeneric node:internal/stream_base_commons:147:22
+    105   53.8%          LazyCompile: *Writable.write node:internal/streams/writable:335:36
+     73   69.5%            LazyCompile: *value node:internal/console/constructor:271:20
+     32   30.5%            Function: ^value node:internal/console/constructor:271:20
+     90   46.2%          Function: ^Socket._writeGeneric node:net:848:42
+     90  100.0%            Function: ^Socket._write node:net:885:35
+     30   13.3%        LazyCompile: *_write node:internal/streams/writable:285:16
+     30  100.0%          Function: ^Writable.write node:internal/streams/writable:335:36
+     30  100.0%            Function: ^value node:internal/console/constructor:271:20
+     73    7.1%      Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+     73  100.0%        Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:85:18
+     64   87.7%          Function: ^loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+     52   81.3%            Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      8   12.5%            LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      4    6.3%            Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      9   12.3%          LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      9  100.0%            Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+     70    6.8%      LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+     68   97.1%        LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+     57   83.8%          LazyCompile: *getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+     38   66.7%            Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+     19   33.3%            LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+     11   16.2%          LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+     11  100.0%            Function: ^getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1    1.4%        Function: ^getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1  100.0%          Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+      1  100.0%            Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:85:18
+      1    1.4%        Function: ^assertExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:81:29
+      1  100.0%          LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+      1  100.0%            LazyCompile: *attribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1216:22
+     67    6.6%      LazyCompile: *parseChar C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:76:19
+     30   44.8%        LazyCompile: *parseUntil C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:47:20
+     29   96.7%          LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+     29  100.0%            LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      1    3.3%          Function: ^bracketExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:245:30
+      1  100.0%            Function: ^attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+     26   38.8%        LazyCompile: *parse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:28:15
+     24   92.3%          LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+     24  100.0%            LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      2    7.7%          Function: ^assertNestingCorrect C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:100:33
+      2  100.0%            Function: ^attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+     11   16.4%        LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+     11  100.0%          LazyCompile: *attribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1216:22
+     10   90.9%            LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+      1    9.1%            Function: ^attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+     52    5.1%      LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+     33   63.5%        Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+     33  100.0%          Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+     33  100.0%            Function: ^handleTemplateCache C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:236:29
+      9   17.3%        LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      9  100.0%          Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+      9  100.0%            Function: ^handleTemplateCache C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:236:29
+      8   15.4%        LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      8  100.0%          LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      8  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      2    3.8%        Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      2  100.0%          LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      2  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+     51    5.0%      C:\Program Files\nodejs\node.exe
+     32   62.7%        LazyCompile: *Parser C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\acorn\dist\acorn.js:470:31
+     26   81.3%          LazyCompile: *isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:75:25
+     18   69.2%            LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+      8   30.8%            LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      4   12.5%          LazyCompile: *isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\is-expression\index.js:14:22
+      4  100.0%            Function: ^isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:75:25
+      2    6.3%          Function: ^isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\is-expression\index.js:14:22
+      2  100.0%            Function: ^isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:75:25
+      2    3.9%        LazyCompile: *buffer C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:203:19
+      2  100.0%          LazyCompile: *visitTag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:613:21
+      2  100.0%            LazyCompile: *visitBlock C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:420:23
+      2    3.9%        Function: ^getOptions C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:111:20
+      1   50.0%          Function: ^loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      1  100.0%            Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      1   50.0%          Function: ^load C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:9:14
+      1  100.0%            Function: ^loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      1    2.0%        LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1  100.0%          LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1    2.0%        LazyCompile: *visitBlock C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:420:23
+      1  100.0%          LazyCompile: *visitBlock C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:420:23
+      1  100.0%            LazyCompile: *visit C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:292:18
+      1    2.0%        LazyCompile: *stringify C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\js-stringify\index.js:4:19
+      1  100.0%          LazyCompile: *compileAttrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-attrs\index.js:22:22
+      1  100.0%            LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:971:18
+      1    2.0%        LazyCompile: *set C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\application.js:359:23
+      1  100.0%          Function: ^enabled C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\application.js:438:31
+      1  100.0%            Function: ^render C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\application.js:548:29
+      1    2.0%        LazyCompile: *pluginsMap C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\@babel\parser\lib\index.js:16922:20
+      1  100.0%          LazyCompile: *isConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\constantinople\lib\index.js:332:20
+      1  100.0%            LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:971:18
+      1    2.0%        LazyCompile: *getOwn node:internal/bootstrap/loaders:187:16
+      1  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:304:14
+      1  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      1    2.0%        LazyCompile: *findGlobals C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:166:21
+      1  100.0%          LazyCompile: *addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+      1  100.0%            Function: ^compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:109:20
+      1    2.0%        LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      1  100.0%          LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      1  100.0%            LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      1    2.0%        LazyCompile: *blank C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:337:18
+      1  100.0%          LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      1  100.0%            LazyCompile: *getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1    2.0%        LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:971:18
+      1  100.0%          LazyCompile: *visitAttributes C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:935:28
+      1  100.0%            LazyCompile: *visitTag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:613:21
+      1    2.0%        LazyCompile: *addAttribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-attrs\index.js:54:24
+      1  100.0%          LazyCompile: *compileAttrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-attrs\index.js:22:22
+      1  100.0%            LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:971:18
+      1    2.0%        Function: ^toConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\constantinople\lib\index.js:9:24
+      1  100.0%          LazyCompile: *isConstant C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:35:20
+      1  100.0%            LazyCompile: *visitCode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:769:22
+      1    2.0%        Function: ^log node:internal/console/constructor:375:6
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\log4js\lib\appenders\console.js:5:10
+      1    2.0%        Function: ^checkInvalidHeaderChar node:_http_common:231:32
+      1  100.0%          Function: ^<anonymous> node:_http_outgoing:577:45
+      1  100.0%            Function: ^setHeader node:_http_outgoing:601:57
+      1    2.0%        Function: ^FastBuffer node:internal/buffer:958:14
+      1  100.0%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      1  100.0%            Function: ^createPool node:buffer:155:20
+     48    4.7%      Function: ^compileFunction node:vm:316:25
+     47   97.9%        Function: ^wrapSafe node:internal/modules/cjs/loader:1040:18
+     47  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+     45   95.7%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      2    4.3%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1    2.1%        LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1040:18
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+     47    4.6%      Function: ^parse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-parser\index.js:10:15
+     28   59.6%        Function: ^parse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:110:20
+     23   82.1%          Function: ^loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+     18   78.3%            Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      4   17.4%            LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      1    4.3%            Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      5   17.9%          LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      5  100.0%            Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+     19   40.4%        LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      9   47.4%          Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      9  100.0%            Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+      5   26.3%          LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      5  100.0%            Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+      4   21.1%          LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      4  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1    5.3%          Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      1  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+     28    2.7%      Function: ^load C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:9:14
+     27   96.4%        Function: ^loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+     25   92.6%          Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+     25  100.0%            Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+      1    3.7%          LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      1  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1    3.7%          Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      1  100.0%            LazyCompile: *walkAST C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-walk\index.js:4:17
+      1    3.6%        LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      1  100.0%          Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+      1  100.0%            Function: ^handleTemplateCache C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:236:29
+     27    2.6%      LazyCompile: *Parser C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\acorn\dist\acorn.js:470:31
+     24   88.9%        LazyCompile: *isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:75:25
+     18   75.0%          LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+     18  100.0%            LazyCompile: *attribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1216:22
+      6   25.0%          LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      6  100.0%            Function: ^assertExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:81:29
+      2    7.4%        LazyCompile: *isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\is-expression\index.js:14:22
+      2  100.0%          Function: ^isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:75:25
+      1   50.0%            LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      1   50.0%            LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+      1    3.7%        Function: ^isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\is-expression\index.js:14:22
+      1  100.0%          Function: ^isExpression C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:75:25
+      1  100.0%            LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+     23    2.3%      Function: ^unwrapReturns C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:127:23
+     23  100.0%        Function: ^addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+     23  100.0%          Function: ^compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:109:20
+     19   82.6%            Function: ^generateCode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:31:22
+      4   17.4%            LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+     20    2.0%      LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+     20  100.0%        LazyCompile: *getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+     11   55.0%          LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      7   63.6%            Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      2   18.2%            LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      1    9.1%            LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      1    9.1%            Function: ^<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      9   45.0%          Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+      9  100.0%            Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:85:18
+     12    1.2%      LazyCompile: *visitTag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:613:21
+     12  100.0%        LazyCompile: *visitBlock C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:420:23
+     12  100.0%          LazyCompile: *visit C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:292:18
+     12  100.0%            LazyCompile: *visitTag C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:613:21
+     12    1.2%      Function: ^statSync node:fs:1580:18
+     12  100.0%        Function: ^tryStat C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\view.js:174:17
+     12  100.0%          Function: ^resolve C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\view.js:146:42
+     12  100.0%            Function: ^lookup C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\express\lib\view.js:104:40
+     41    2.6%    LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+     38   92.7%      LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+     33   86.8%        LazyCompile: *getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+     23   69.7%          Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+     23  100.0%            Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:85:18
+     10   30.3%          LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      6   60.0%            Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      3   30.0%            LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      1   10.0%            LazyCompile: *<anonymous> C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:13:28
+      5   13.2%        LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      5  100.0%          Function: ^getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      4   80.0%            Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+      1   20.0%            LazyCompile: *loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      1    2.4%      LazyCompile: *include C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:818:20
+      1  100.0%        LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      1  100.0%          LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      1  100.0%            LazyCompile: *getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1    2.4%      Function: ^getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1  100.0%        Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+      1  100.0%          Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:85:18
+      1  100.0%            Function: ^loadString C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-load\index.js:49:34
+      1    2.4%      Function: ^advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      1  100.0%        LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      1  100.0%          Function: ^getTokens C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1704:22
+      1  100.0%            Function: ^lex C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:10:13
+     34    2.2%    LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:73:26
+     33   97.1%      LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:73:26
+     32   97.0%        LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:73:26
+     24   75.0%          LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:73:26
+     16   66.7%            LazyCompile: *recurse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\babel-walk\lib\index.js:73:26
+      8   33.3%            LazyCompile: *findGlobals C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:166:21
+      8   25.0%          LazyCompile: *findGlobals C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:166:21
+      7   87.5%            Function: ^addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+      1   12.5%            LazyCompile: *addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+      1    3.0%        LazyCompile: *findGlobals C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:166:21
+      1  100.0%          LazyCompile: *addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+      1  100.0%            Function: ^compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:109:20
+      1    2.9%      LazyCompile: *findGlobals C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\globals.js:166:21
+      1  100.0%        LazyCompile: *addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+      1  100.0%          Function: ^compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:109:20
+      1  100.0%            LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+     24    1.5%    LazyCompile: *parseChar C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:76:19
+      8   33.3%      LazyCompile: *parseUntil C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:47:20
+      8  100.0%        LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+      8  100.0%          LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      8  100.0%            LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      8   33.3%      LazyCompile: *parse C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\character-parser\index.js:28:15
+      8  100.0%        LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+      8  100.0%          LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+      8  100.0%            LazyCompile: *advance C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1656:20
+      8   33.3%      LazyCompile: *attributeValue C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1312:27
+      8  100.0%        LazyCompile: *attribute C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1216:22
+      8  100.0%          LazyCompile: *attrs C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1440:18
+      8  100.0%            LazyCompile: *callLexerFunction C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-lexer\index.js:1635:30
+     20    1.3%    Function: ^unwrapReturns C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:127:23
+     20  100.0%      Function: ^addWith C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\with\lib\index.js:40:17
+     20  100.0%        Function: ^compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:109:20
+     15   75.0%          Function: ^generateCode C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug-code-gen\index.js:31:22
+     15  100.0%            Function: ^compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      5   25.0%          LazyCompile: *compileBody C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:77:21
+      5  100.0%            Function: ^exports.compile C:\personal\coder\backend\desafios\desafio-13-coderhouse\node_modules\pug\lib\index.js:264:27
+

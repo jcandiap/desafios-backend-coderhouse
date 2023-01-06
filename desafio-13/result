@@ -1,0 +1,11 @@
+Error: Unexpected argument: result-test.txt
+See more help with --help
+    at validateArgs (C:\Users\jcandia\AppData\Roaming\nvm\v16.17.0\node_modules\artillery\node_modules\@oclif\parser\lib\validate.js:11:19)
+    at Object.validate (C:\Users\jcandia\AppData\Roaming\nvm\v16.17.0\node_modules\artillery\node_modules\@oclif\parser\lib\validate.js:81:5)
+    at Object.parse (C:\Users\jcandia\AppData\Roaming\nvm\v16.17.0\node_modules\artillery\node_modules\@oclif\parser\lib\index.js:29:7)
+    at QuickCommand.parse (C:\Users\jcandia\AppData\Roaming\nvm\v16.17.0\node_modules\artillery\node_modules\@oclif\command\lib\command.js:86:41)
+    at QuickCommand.run (C:\Users\jcandia\AppData\Roaming\nvm\v16.17.0\node_modules\artillery\lib\cmds\quick.js:18:40)
+    at QuickCommand._run (C:\Users\jcandia\AppData\Roaming\nvm\v16.17.0\node_modules\artillery\node_modules\@oclif\command\lib\command.js:43:31)
+undefined
+Unexpected argument: result-test.txt
+See more help with --help

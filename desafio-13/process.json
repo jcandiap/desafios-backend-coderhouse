@@ -1,0 +1,38 @@
+{
+    "apps": [
+        {
+            "name": "Process 8081",
+            "script": "src/app.js",
+            "watch": true,
+            "args": "--port=8081 --modo=FORK"
+        },
+        {
+            "name": "Process 8082",
+            "script": "src/app.js",
+            "watch": true,
+            "args": "--port=8082 --modo=FORK"
+        },
+        {
+            "name": "Process 8083",
+            "script": "src/app.js",
+            "watch": true,
+            "args": "--port=8083 --modo=FORK"
+        },
+        {
+            "name": "Process 8084",
+            "script": "src/app.js",
+            "watch": true,
+            "args": "--port=8084 --modo=FORK",
+            "instances": 1,
+            "exec_mode": "cluster"
+        },
+        {
+            "name": "Process 8085",
+            "script": "src/app.js",
+            "watch": true,
+            "args": "--port=8085 --modo=FORK",
+            "instances": 1,
+            "exec_mode": "cluster"
+        }
+    ]
+}

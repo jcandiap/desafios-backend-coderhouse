@@ -1,0 +1,21 @@
+div(class="d-flex")
+    h1(class="mx-auto") Ingresar producto
+div(class="w-100 mt-3")
+    form(id="form-add-product", method="post", class="d-flex w-100") 
+        div(class="mb-3 w-50 mx-auto px-2")
+            label(for="title", class="form-label") Titulo 
+            input(type="text", class="form-control", id="title", name="title")
+        div(class="mb-3 w-50 mx-auto px-2")
+            label(for="precio", class="form-label") Precio 
+            input(type="number", class="form-control", id="price", name="price")
+        div(class="mb-3 w-50 mx-auto px-2")
+            label(for="thumbnail", class="form-label") Icono 
+            input(type="text", class="form-control", id="thumbnail", name="thumbnail")
+        div(class="mb-3 mx-auto px-2 d-flex")
+            button(class="btn btn-primary mx-auto") Ingresar
+        if !!error
+            div(class="alert alert-danger w-50 mx-auto text-center")
+                h5 #{error}
+        if !!producto
+            div(class="alert alert-success w-50 mx-auto text-center")
+                h5 ¡Producto ingresado con exito! Nuevo ID: #{producto.id}

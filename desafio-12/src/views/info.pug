@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+    head
+        title Administracion de productos
+        include includes/head.pug
+    body(style="padding: 16px")
+        div(class="container")
+            div(class="d-flex justify-content-center")
+                div(class="card")
+                    div(class="card-body")
+                        h1(class="card-title") Info
+                        p(class="card-text") This is a simple web app that allows you to create and manage your own todo list.
+                        p(class="card-text") It uses Node.js, Express, MongoDB, and Pug.
+                        p(class="card-text") You can find the source code on GitHub.
+                        a(href="https://github.com/jcandiap/desafio-11-coderhouse" target="_blank") https://github.com/jcandiap/desafio-11-coderhouse
+                        hr
+                        p(class="card-text")
+                            span(class="fw-bold") Entry arguments: 
+                            span(class="text-muted")=entryArguments
+                        p(class="card-text")
+                            span(class="fw-bold") Platform name: 
+                            span(class="text-muted")=platformName
+                        p(class="card-text")
+                            span(class="fw-bold") Node version: 
+                            span(class="text-muted")=nodeVersion
+                        p(class="card-text")
+                            span(class="fw-bold") Total memory reserved: 
+                            span(class="text-muted")=rss
+                        p(class="card-text")
+                            span(class="fw-bold") Execution path: 
+                            span(class="text-muted")=execPath
+                        p(class="card-text")
+                            span(class="fw-bold") Process id: 
+                            span(class="text-muted")=pid
+                        p(class="card-text")
+                            span(class="fw-bold") Proyect folder: 
+                            span(class="text-muted")=currentWorking
+                        p(class="card-text")
+                            span(class="fw-bold") Process count: 
+                            span(class="text-muted")=processCount
+                        

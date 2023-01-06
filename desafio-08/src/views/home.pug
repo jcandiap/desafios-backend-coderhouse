@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        title Administracion de productos
+        include includes/head.pug
+    body(style="padding: 16px")
+        div(class="container")
+            div(class="row")
+                div(class="col-lg-6 col-sm-12 d-flex position-relative")
+                    include includes/product-table.pug
+                //- if isChatActivated
+                div(class="col-lg-6 col-sm-12 d-flex position-relative" style="height: 100vh", id="chat-container")
+                    include includes/login-chat.pug
+                //- else 
+                //-     div(class="col-lg-6 col-sm-12 d-flex position-relative", id="chat-container")
+                //-         include includes/login-chat.pug
+    script(src="/socket.io/socket.io.js")
+    script(src="//cdn.jsdelivr.net/npm/sweetalert2@11")
+    script(type="text/javascript")
+        include scripts/home.js 

@@ -1,0 +1,52 @@
+div(id="div-header", class="d-none")
+div(id="user-container")
+    div(id="div-register", class="bg-secondary text-white p-5 rounded")
+        form(id="form-register", method="post") 
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Email
+                div(class="col-sm-8")
+                    input(type="text", value="josecandiap@gmail.com", class="form-control", placeholder="Ingrese su email", id="id", name="id", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Alias
+                div(class="col-sm-8")
+                    input(type="text", value="jcandia" class="form-control", placeholder="Ingrese su alias", id="alias", name="alias", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Nombre
+                div(class="col-sm-8")
+                    input(type="text", value="jose", class="form-control", placeholder="Ingrese su nombre", id="nombre", name="nombre", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Apellido
+                div(class="col-sm-8")
+                    input(type="text", value="candia", class="form-control", placeholder="Ingrese su apellido", id="apellido", name="apellido", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Edad
+                div(class="col-sm-8")
+                    input(type="text", value="26", class="form-control", placeholder="Ingrese su edad", id="edad", name="edad", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Contraseña
+                div(class="col-sm-8")
+                    input(type="password", value="26", class="form-control", placeholder="Ingrese una contraseña", id="password", name="password", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Confirmar Contraseña
+                div(class="col-sm-8")
+                    input(type="password", value="26", class="form-control", placeholder="Confirme su contraseña", id="passwordConfirm", name="passwordConfirm", required)
+            div(class="mb-3 row")
+                label(for="name", class="col-sm-4 col-form-label") Avatar
+                div(class="col-sm-8")
+                    input(type="text", value="test" class="form-control", placeholder="Ingrese URL de imagen", id="avatar", name="avatar")
+            div(class="d-grid gap-2 col-6 mx-auto")
+                button(type="submit", class="btn btn-primary") Registrarse
+                span(class="text-center") ó
+                button(type="button", class="btn btn-outline-light", id="activate-login", onClick="activarLogin()") Iniciar sesión
+    div(id="div-login", class="d-none")
+        form(id="form-login", method="post") 
+            div(class="mb-3")
+                label(for="id", class="form-label") Email
+                input(type="text", value="" class="form-control", placeholder="Ingrese su email", id="id", name="id", required)
+            div(class="mb-3")
+                label(for="password", class="form-label") Contraseña
+                input(type="password", value="" class="form-control", placeholder="Ingrese su email", id="password", name="password", required)
+            div(class="d-grid gap-2 col-6 mx-auto")
+                button(type="submit", class="btn btn-primary") Iniciar sesión
+                span(class="text-center") ó
+                button(type="button", class="btn btn-outline-light", id="activate-register", onClick="activarRegistro()") Registrarse
