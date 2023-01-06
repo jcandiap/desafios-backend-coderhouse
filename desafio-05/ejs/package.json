@@ -1,0 +1,17 @@
+{
+  "name": "desafio-05-pug",
+  "version": "1.0.0",
+  "description": "Desafio 05 con EJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jose Candia",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

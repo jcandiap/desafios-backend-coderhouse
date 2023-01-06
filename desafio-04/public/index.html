@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario registro de producto</title>
+    </head>
+    <body>
+        <div>
+            <h1>Formulario creación de producto</h1>
+            <form id="productForm" style="display:flex; flex-direction: column;">
+                <div style="display:flex; margin-top: 10px;">
+                    <label for="frmTitle" style="font-weight: bold;">Titulo:</label><input type="text" id="frmTitle" name="title">
+                </div>
+                <div style="display:flex; margin-top: 10px;">
+                    <label for="frmPrice" style="font-weight: bold;">Precio:</label><input type="number" id="frmPrice" name="price">
+                </div>
+                <div style="display:flex; margin-top: 10px;">
+                    <label for="frmThumbnail" style="font-weight: bold;">Miniatura:</label><input type="text" id="frmThumbnail" name="thumbnail">
+                </div>
+                <div style="display:flex; margin-top: 10px;">
+                    <button type="submit">Guardar Producto</button>
+                </div>
+            </form>
+        </div>
+        <script src="js/desafio.js"></script>
+    </body>
+</html>

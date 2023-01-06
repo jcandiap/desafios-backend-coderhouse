@@ -1,0 +1,39 @@
+<div class="container">
+    <a href="/">
+        <button class="btn btn-primary">Volver</button>
+    </a>
+    <div class="d-flex">
+        <h1 class="mx-auto">Ingresar producto</h1>
+    </div>
+    <div class="w-100 mt-3">
+        <form action="/productos" method="post" class="d-flex flex-column w-100" id="insert-form">
+            <div class="mb-3 w-50 mx-auto">
+                <label class="form-label" for="title">Titulo </label>
+                <input class="form-control" type="text" id="title" name="title" required>
+            </div>
+            <div class="mb-3 w-50 mx-auto">
+                <label class="form-label" for="precio">Precio </label>
+                <input class="form-control" type="number" id="price" name="price" required>
+            </div>
+            <div class="mb-3 w-50 mx-auto">
+                <label class="form-label" for="thumbnail">Icono </label>
+                <input class="form-control" type="text" id="thumbnail" name="thumbnail" required>
+            </div>
+            <div class="mb-3 w-50 mx-auto">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+            <div id="message"></div>
+            {{#if error}}
+                <div class="alert alert-danger w-50 mx-auto text-center" role="alert">
+                    <h4>{{error}}</h4>
+                </div>
+            {{/if}}
+            {{#if producto}}
+                <div class="alert alert-success w-50 mx-auto text-center" role="alert">
+                    ¡Producto ingresado con exito!
+                    Nuevo ID: {{ producto.id }}
+                </div>
+            {{/if}} 
+        </form>
+    </div>
+</div>

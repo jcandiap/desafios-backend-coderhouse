@@ -1,0 +1,1 @@
+[{"title":"prueba edicion","price":333,"thumbnail":"prueba.cl/estesiotravez","id":1},{"id":2,"title":"prueba 2","price":"32","thumbnail":"este si"}]
