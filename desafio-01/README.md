@@ -1,5 +1,5 @@
 # Desafio 01
-## Author
+## Autor
 - [@jcandiap](https://github.com/jcandiap)
 ## Consigna del desafio
 - Se debe utilizar el codigo [HTML](https://github.com/jcandiap/desafios-backend-coderhouse/blob/main/desafio-01/index.html) para desplegar una prueba que debe ser respondida por el usuario.

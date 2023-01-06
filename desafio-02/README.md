@@ -1,5 +1,5 @@
-# Desafio 01
-## Author
+# Desafio 02
+## Autor
 - [@jcandiap](https://github.com/jcandiap)
 ## Consigna del desafio
 - Se debe implementar un programa que contenga una clase llamada [Contenedor](https://github.com/jcandiap/desafios-backend-coderhouse/blob/main/desafio-02/model/Contenedor.js) que reciba el nombre del archivo con el que va a trabajar e implementar los siguientes métodos:
