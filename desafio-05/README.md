@@ -9,7 +9,7 @@ Utilizando la misma [API](https://github.com/jcandiap/desafios-backend-coderhous
 #
 ### Para el siguiente desafio se utilizarán los siguientes motores de plantillas:
 
-<div style="display: flex; justify-content: space-evenly">
+<div style="text-align: justify; text-align-last:center;">
     <a href="https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05/handlebars"><img src="https://programacion.net/files/article/20160322050344_handlebars.jpg" alt="handlebars" width="250" height="100"/></a>
     <a href="https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05/pug">
         <img src="https://miro.medium.com/max/547/1*XUK4XE1-j9ju7qWVzcIsYg.png" alt="pug" width="250" height="100"/>
