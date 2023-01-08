@@ -8,12 +8,12 @@ Utilizando la misma [API](https://github.com/jcandiap/desafios-backend-coderhous
 - Ambas páginas contarán con un botón que redirija a la otra.
 #
 ### Para el siguiente desafio se utilizarán los siguientes motores de plantillas:
-<a href="https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05/handlebars"><img src="https://programacion.net/files/article/20160322050344_handlebars.jpg" alt="handlebars" width="200"/></a>
+<a href="https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05/handlebars"><img src="https://programacion.net/files/article/20160322050344_handlebars.jpg" alt="handlebars" width="200" heigth="100"/></a>
 <a href="https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05/pug">
-    <img src="https://miro.medium.com/max/547/1*XUK4XE1-j9ju7qWVzcIsYg.png" alt="pug" width="200"/>
+    <img src="https://miro.medium.com/max/547/1*XUK4XE1-j9ju7qWVzcIsYg.png" alt="pug" width="200" heigth="100"/>
 </a>
 <a href="https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05/ejs">
-    <img src="https://www.oscarlijo.com/blog/wp-content/uploads/2017/10/ejs.png" alt="ejs" width="200"/>
+    <img src="https://www.oscarlijo.com/blog/wp-content/uploads/2017/10/ejs.png" alt="ejs" width="200" heigth="100"/>
 </a>
 #
 ## 🔗 Links
