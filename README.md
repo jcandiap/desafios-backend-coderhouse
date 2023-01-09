@@ -10,7 +10,8 @@
 - [02 - Manejo de Archivos 🗂️](https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-02)
 - [03 - Servidor con express 👾](https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-03)
 - [04 - API RESTful 🧑🏻‍💻](https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-04)
-- [05 - Motores de plantillas 🥸](https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05)
+- [05 - Motores de plantillas 🦋](https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-05)
+- [06 - Chat con Websocket 👨‍👨‍👧‍👧](https://github.com/jcandiap/desafios-backend-coderhouse/tree/main/desafio-06)
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jcandiap/)
