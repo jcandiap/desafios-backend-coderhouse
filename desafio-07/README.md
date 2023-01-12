@@ -9,3 +9,5 @@ Tomando como vase las clases Contenedor en memoria y en archivos, desarrollar un
 *Desarrollar también un script que utilizando knex cree las tablas necesarias para la persistencia en cuestión (tabla mensajes en SQLite3 y tabla productos en MariaDB).*
 ## Aspectos a considerar
 - Definir una carpeta BD para almacenar la base de datos SQLite3 llamada *ecommerce*.
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jcandiap/)
