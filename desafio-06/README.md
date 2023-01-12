@@ -1,4 +1,4 @@
-# Desafio 05
+# Desafio 06
 ## Autor
 - [@jcandiap](https://github.com/jcandiap)
 ## Consigna del desafio
